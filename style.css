@@ -1,0 +1,112 @@
+.sharp-text {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #313131;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5.25rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    top: 2.9rem;
+}
+
+header p {
+    color: #A5A1A1;
+    padding-bottom: 1.25rem;
+}
+
+main {
+    width: 40rem;
+    background-color: #E4F1EE;
+    height: 100%;
+    align-self: center;
+}
+
+article {
+    padding: 2rem 2rem 1rem 2rem;
+
+}
+
+p {
+    font-size: 1rem;
+    color: #474747;
+    line-height: 1.7rem;
+}
+
+time {
+    display: block;
+    color: #7A7F7D;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #438C7D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header-margin {
+    margin-top: 2.5rem;
+}
+
+.article-end {
+    margin-bottom: 2.5rem;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    padding-right: 0.5rem;
+}
+
+.title h2 {
+    flex: 1;
+}
+
+.title a {
+    flex: 0 1 auto;
+    margin-left: 0.25rem;
+    background-color: #56978A;
+    color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.4rem;
+    display: flex;
+    position: relative;
+    top: 0.25rem;
+}
+
+.title a:hover {
+    background-color: white;
+    color: #56978A;
+    text-decoration: none;
+}
+
+.title a .icon {
+    fill: currentColor;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
