@@ -34,7 +34,7 @@ header p {
 }
 
 main {
-    width: 40rem;
+    max-width: 40rem;
     background-color: #E4F1EE;
     height: 100%;
     align-self: center;
@@ -109,4 +109,44 @@ a:hover {
     fill: currentColor;
     margin-right: 0.5rem;
     margin-top: 0.2rem;
+}
+
+@media screen and (max-width: 40rem) {
+    h1 {
+        font-size: 2.75rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    header {
+        text-align: center;
+        position: relative;
+        top: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.75rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    a .tweet {
+        display: none;
+    }
+
+    .title a {
+        position: relative;
+        top: 0.55rem;
+    }
+
+    .title a .icon {
+        margin: 0.25rem 0.2rem 0.6rem 0rem;
+        width: 14.7px;
+        height: 11.9px; 
+    }
+
 }
