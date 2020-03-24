@@ -41,10 +41,11 @@ header p {
 main {
     background-color: #E4F1EE;
     align-self: center;
+    padding: 3rem 0rem 0.75rem 0rem;
 }
 
 article {
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
 
 }
 
@@ -68,14 +69,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-.header-margin {
-    padding-top: 2.5rem;
-}
-
-.article-end {
-    padding-bottom: 2.5rem;
 }
 
 .title {
