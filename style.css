@@ -22,6 +22,11 @@ h2 {
     font-weight: 600;
 }
 
+.wrapper {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
 header {
     text-align: center;
     position: relative;
@@ -34,9 +39,7 @@ header p {
 }
 
 main {
-    max-width: 40rem;
     background-color: #E4F1EE;
-    height: 100%;
     align-self: center;
 }
 
@@ -68,11 +71,11 @@ a:hover {
 }
 
 .header-margin {
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .article-end {
-    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .title {
@@ -112,17 +115,14 @@ a:hover {
 }
 
 footer {
-    display: flex;
+    display: block;
     background-color: #E4F1EE;
-    width: 40rem;
-    height: 100%;
-    align-self: center;
-    justify-content: center;
 }
 
 footer p {
     font-size: 0.75rem;
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 40rem) {
@@ -162,5 +162,4 @@ footer p {
         width: 14.7px;
         height: 11.9px; 
     }
-
 }
